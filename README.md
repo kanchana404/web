@@ -68,7 +68,7 @@ Before running this project, ensure you have:
 
 ```bash
 git clone https://github.com/kanchana404/web
-cd product-management-system
+cd web
 ```
 
 ### 2. Install Dependencies
