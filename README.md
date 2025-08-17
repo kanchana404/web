@@ -67,7 +67,7 @@ Before running this project, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/product-management-system.git
+git clone https://github.com/kanchana404/web
 cd product-management-system
 ```
 
