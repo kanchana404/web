@@ -41,7 +41,7 @@ export async function PUT(
     if (stock !== undefined) updateData.stock = stock;
     if (image !== undefined) updateData.image = image;
     
-    // Always update status when stock changes
+
     if (stock !== undefined) {
       updateData.status = stock > 0 ? 'In Stock' : 'Out of Stock';
     }
