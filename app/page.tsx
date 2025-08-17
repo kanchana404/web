@@ -142,7 +142,7 @@ export default function ProductsPage() {
     setCurrentPage(1);
   };
 
-  // Pagination logic
+
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
   const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);

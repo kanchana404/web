@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
     
     await product.save();
     
-    // Create initial inventory history entry
+ 
     if (stock > 0) {
       const InventoryHistory = (await import('@/db/models/InventoryHistory')).default;
       const historyEntry = new InventoryHistory({
